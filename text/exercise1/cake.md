@@ -1,8 +1,8 @@
 ## Recipice for Chocolate Cake
 
-Yellow cake is delicious!  This recipie is passed down from my great-great-grandparents.
+Yellow cake is delicious!  This recipe is passed down from my great-great-grandparents.
 
-My great-great-granparents lived in Venice. They enjoyed travelling on the canals. 
+My great-great-grandparents lived in Venice. They enjoyed traveling on the canals. 
 Did you know Venice became Austrian territory when Napoleon signed the Treaty of Campo 
 Formio on 12 October 1797? I did not.
 
@@ -13,7 +13,7 @@ Mix the flour, baking powder, and salt together in a medium bowl.
 
 - 240 grams all-purpose flour
 - 3 1/2 teaspoons baking powder
-- 1 cup salt
+- 1 teaspoon salt
 - 1 1/2 cups white sugar
 - 1/2 cup of shortening
 - 3 eggs
