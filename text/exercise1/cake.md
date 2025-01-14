@@ -30,4 +30,4 @@ Stir in vanilla and pour cake batter into the prepared pan.
 
 Bake in the preheated oven until a toothpick inserted in the center comes out clean, about 40 to 45 minutes. 
 
-Preheat the oven to 3500 degrees F (175 degrees C). 
+Preheat the oven to 350 degrees F (175 degrees C). 
