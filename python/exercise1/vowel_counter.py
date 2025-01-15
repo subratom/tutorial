@@ -9,12 +9,17 @@ def num_consonants(text):
     """Return the number of consonants in the string (excluding spaces and punctuation)."""
     vowels = "aeiou"
     return sum(1 for letter in text.lower() if letter.isalpha() and letter not in vowels)
-    
-# Get user input
-text = str(input("Enter a sentence: "))
 
-#print results
-print("Number of vowels", num_vowels(text))
-print("Number of consonants", num_consonants(text))
+def main(): 
+    # Get user input
+    text = str(input("Enter a sentence: "))
+
+    #print results
+    print("Number of vowels", num_vowels(text))
+    print("Number of consonants", num_consonants(text))
+
+
+if __name__ == "__main__":
+    main()
 
 
