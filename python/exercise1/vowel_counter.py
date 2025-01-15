@@ -3,22 +3,23 @@
 def num_vowels(text):
     """Return the number of vowels in string."""
     vowels = "aeiou"
-    num = 0
-    for v in vowels:
-        num += text.lower().count(v)        
-    return num
+    return sum(text.lower().count(v) for v in vowels)
 
 def num_consonants(text):
+    """Return the number of consonants in the string (excluding spaces and punctuation)."""
     vowels = "aeiou"
-    num = 0
-    for letter in text:
-        if letter not in vowels:
-            print("consonant", letter)
-            num +=1
-    
-text = str(input("Enter a sentence: "))
+    return sum(1 for letter in text.lower() if letter.isalpha() and letter not in vowels)
 
-print("Number of vowels", num_vowels(text))
-print("Number of consonants", num_consonants(text))
+def main(): 
+    # Get user input
+    text = str(input("Enter a sentence: "))
+
+    #print results
+    print("Number of vowels", num_vowels(text))
+    print("Number of consonants", num_consonants(text))
+
+
+if __name__ == "__main__":
+    main()
 
 
